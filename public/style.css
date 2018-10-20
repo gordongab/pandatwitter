@@ -1,0 +1,294 @@
+body {
+    display: grid;
+    grid-template-rows: 46px 360px 46px 1fr;
+    min-height: 100vh;
+    grid-gap: 5px;
+
+}
+
+.handle-div {
+    display: flex;
+    align-items: center;
+}
+.tweet {
+    display: flex;
+    padding: 20px;
+}
+
+header {
+    background: white;
+
+}
+
+.fab {
+   margin-left: 150px;
+   color: #2499EC; 
+}
+
+.container-feed {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    z-index: 1;
+    border-radius: 100%;
+    margin-top: 285px;
+    position: absolute;
+    margin-left: 105px;
+
+}
+
+i {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-top: -20px;
+    margin-left: 170px;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+.tweetbutton {
+   border-radius: 50px;
+   background-color: #5d7ebe;
+   color: white;
+   font-weight: bold;
+   height: 25px;
+   width: 60px;
+   font-size: 11px;
+}
+
+
+
+
+.feed {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 15px;
+}
+
+
+.panda-heading {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panda-twitter {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: gray;
+ 
+}
+
+.left-feed {
+    background: #E6ECF0;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.left-text {
+    font-size: 13.5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 17px;
+}
+
+.tweet-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 75px;
+    
+
+}
+
+.center-feed {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    
+}
+
+.right-feed {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    background: white;
+    
+}
+
+
+
+.text-signup {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14px;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5B6A73;
+    width: 70%;
+    line-height: 17px
+}
+
+.signup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-display: bold;
+}
+
+
+.center-feed {
+    background: white;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.signup {
+   margin-top: 10px; 
+   border-radius: 50px;
+   background-color: white;
+   margin-left: 70px;
+   background-color: #5d7ebe;
+   color: white;
+   height: 50px;
+   width: 200px;
+   font-weight: bold;
+
+}
+
+
+.one {
+    margin-left: 1000px;
+    background-color: #5d7ebe;
+}
+
+
+.textarea {
+    margin-top: 10px;
+    margin-left: 60px;
+    float: center;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+
+#cover {
+    background-image: url(assets/panda.jpg);
+    background-size: 600px 600px 280px;
+}
+
+.verified {
+    color: #1DA1F2;
+}
+
+
+nav {
+    background: white;
+    text-align: center;
+    text-decoration: gray;
+    text-emphasis: bold;
+    padding-top: 15px;
+    height: 5px;
+}
+
+main {
+    background: #E6ECF0;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+
+.modal-container {
+            background: rgba(20, 23, 26, .7);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+}
+
+.modal {
+    width: 600px;
+    margin: 40px auto;
+    height: 180px;
+    background: white;
+    border-radius: 7px;
+    padding: 0 15px 10px;
+    text-align: center;
+}
+
+
+.panda-avi {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.handle1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    
+}
+
+.handle2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    
+}
+
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.delete {
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 218px;
+    
+}
+
+hr {
+    border-color: #E6ECF0;
+    background-color: #E6ECF0;
+    color: #E6ECF0;
+}
+
+
+.hide {
+    display: none;
+}
